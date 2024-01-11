@@ -1,0 +1,45 @@
+.mainCard {
+  width: 100%;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 1px 2px 4px 0px;
+}
+
+.name-avatar {
+  display: flex;
+  align-items: center;
+}
+.name-avatar h3 {
+  color: rgb(9, 105, 218);
+  margin-top: -10px;
+}
+.name-avatar h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.cardDescription {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  padding-top: 8px;
+  color: #000;
+}
+.star {
+  padding: 0px 4px;
+}
+.totalCount {
+  font-weight: 600;
+  margin-left: 20px;
+}
