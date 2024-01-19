@@ -18,7 +18,7 @@ const Home = () => {
   const pageLimit = 10;
   const debouncedValue = useDebounce(searchItem, 1000);
 
-  const handleChange = (event: React.ChangeEvent<unknown>, value: number) => {
+  const handleChange = (_event: React.ChangeEvent<unknown>, value: number) => {
     setPage(value);
   };
 
